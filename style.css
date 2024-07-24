@@ -21,7 +21,6 @@
 }
 .side-item {
     font-size: 24px;
-    cursor: pointer;
 }
 #news, #crew, #shop {
     margin: auto 64px;
@@ -46,10 +45,4 @@
 }
 #section-news, #section-crew, #section-shop {
     display: none;
-}
-
-
-#instagram-feed {
-    width: 500px;
-    margin: 0 auto;
 }
