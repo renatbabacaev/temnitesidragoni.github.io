@@ -14,6 +14,7 @@
     right: 0;
     top: 0;
     left: 0;
+    background-color: #ffffff;
 }
 #logotype {
     height: var(--logo-height);
@@ -28,7 +29,9 @@
 
 
 #main {
-    margin: auto 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 8px
 }
 #footer {
     float: right;
