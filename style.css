@@ -5,28 +5,36 @@
 
 #navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    width: 30%;
-    min-width: 196px;
-    max-width: 300px;
-    min-height: 300px;
     position: fixed;
 
     right: 0;
     top: 0;
-    bottom: 0;
+    left: 0;
 }
 #logotype {
     height: var(--logo-height);
 }
 .side-item {
-    font-size: 30px;
+    font-size: 24px;
+    cursor: pointer;
 }
 #news, #crew, #shop {
-    margin: 24px auto;
+    margin: auto 64px;
+}
+
+
+#main {
+    margin: auto 96px;
+}
+#footer {
+    float: right;
+}
+#footer > ul > li {
+    display: inline;
 }
 
 

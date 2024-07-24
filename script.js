@@ -21,5 +21,5 @@ window.onresize = () => {
 
 
 function resizeMainContent() {
-    main.style.marginRight = navbar.offsetWidth + "px";
+    main.style.marginTop = navbar.offsetHeight + "px";
 }
